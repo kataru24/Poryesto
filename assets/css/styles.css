@@ -981,6 +981,9 @@ body.dark-theme{
     --scroll-thumb-color: hsl(var(--hue-color),12%,36%);
 }
 
+/* .email{
+    visibility: hidden;
+} */
 /* SCROLL  BAR */
 
 ::-webkit-scrollbar{

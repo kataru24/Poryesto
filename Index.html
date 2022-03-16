@@ -134,7 +134,7 @@
                     <p class="about__description"> ACUERDATE DE PONER UNA FOTO MEJOR DE TI<br> parar poner cosas sobre ti mismo en cuanto a aspectos personales, hobbies, proyectos etc...</p>
 
                     <!-- TITULACIONES OBTENIDAS Y CURSOS FINALIZADOS -->
-                    <div class="about__info">
+                    <!-- <div class="about__info">
                         <div>
                             <span class="about__info-title">08+</span>
                             <span class="about__info-name"> Years <br> Experience </span>
@@ -147,7 +147,7 @@
                             <span class="about__info-title">05+</span>
                             <span class="about__info-name"> Companies <br> worked </span>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="about__buttons">
                         <a download="" href="assets/pdf/CVAlvaroFinal.pdf" class="button button--flex">
@@ -776,12 +776,12 @@
                     <div class="conact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="conact__label">Nombre</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="Name" class="contact__input" required>
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="conact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" name="Email" class="contact__input" required>
                         </div>
                     </div>
                     <div class="contact__content">
@@ -791,14 +791,11 @@
 
                     <div class="contact__content">
                         <label for="" class="conact__label">Mensaje</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="Message" id="" cols="0" rows="7" class="contact__input" required></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
-                            Enviar Mensaje
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
+                        <button type="submit" id="sendEmail" class="email button button--flex ">Enviar Mensaje <i class="uil uil-message button__icon"></i></button>
                     </div>
                 </form>
             </div>
